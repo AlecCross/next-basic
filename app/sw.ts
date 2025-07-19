@@ -32,3 +32,5 @@ const serwist = new Serwist({
 });
 
 serwist.addEventListeners();
+
+export { serwist };
