@@ -14,7 +14,11 @@ const withSerwist = withSerwistInit({
     { url: "/", revision },
     { url: "/favicon.ico", revision },
     { url: "/manifest.json", revision },
+    { url: "/robots.txt", revision },
     { url: "/~offline", revision },
+    { url: "/icons/icon-512x512.png", revision },
+    { url: "/icons/apple-touch-icon.png", revision },
+    { url: "/icons/android-chrome-192x192.png", revision },
     // Додайте інші важливі сторінки/ресурси
   ],
 });
